@@ -11,14 +11,14 @@ In particular you need:
 4. Following Python libraries.
 
 		sudo pip3.6 install beautifulsoup4 colorzero gpiozero lxml netifaces parse password-strength pyppeteer pyquery requests requests-html selenium soupsieve urllib3 w3lib websockets
-5. Router Secc source code which can be downloaded from [github](https://github.ncsu.edu/malliso/ECE484-Router-Vulnerability). (edit link)
+5. Router Secc source code which can be downloaded from [github](https://github.com/mallisonNCSU/RouterSecc).
 
-		git clone https://github.ncsu.edu/malliso/ECE484-Router-Vulnerability (edit)
+		git clone https://github.com/mallisonNCSU/RouterSecc
 ## Setup
 + After complete all the steps above for setup, move / copy the contents in the directory to apache's hosting directory.
 
 		sudo mkdir /var/www/html
-		sudo cp ECE484-Router-Vulnerability/* /var/www/html (edit)
+		sudo cp RouterSecc/* /var/www/html
 + To run the python script on system startup, follow the tutorial from [this blog](https://blog.startingelectronics.com/auto-start-a-desktop-application-on-the-rapberry-pi/).
 
 + To setup static IP, follow this [forum post](https://www.raspberrypi.org/forums/viewtopic.php?t=191140).
