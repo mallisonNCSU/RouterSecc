@@ -1,7 +1,7 @@
 # RouterSecc - Router Security Tester
 ## Introduction
 RouterSecc - Router Security Tester is a project aimed to help people check the settings in their home routers for potential security concerns. It's aimed for easy usage even for non-tech-savvy people who are not familar with downloading or installing software.
-## Requirments
+## Requirements
 This project is based on the Raspberry Pi model 3B. The Raspberry Pi needs to connect to a wireless router's LAN interface with an ethernet cable to perform tests on it.
 
 In particular you need:
