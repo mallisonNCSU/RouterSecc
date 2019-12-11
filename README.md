@@ -13,19 +13,19 @@ In particular you need:
 		sudo pip3.6 install beautifulsoup4 colorzero gpiozero lxml netifaces parse password-strength pyppeteer pyquery requests requests-html selenium soupsieve urllib3 w3lib websockets
 5. RouterSecc source code which can be downloaded from [github](https://github.com/mallisonNCSU/RouterSecc).
 
-		git clone https://github.com/mallisonNCSU/RouterSecc (edit)
+		git clone https://github.com/mallisonNCSU/RouterSecc
 ## Setup
 + After the above steps are completed, move / copy the contents in the directory to apache's hosting directory.
 
 		sudo mkdir /var/www/html
-		sudo cp RouterSecc/* /var/www/html (edit)
+		sudo cp RouterSecc/* /var/www/html
 + To run the python script on system startup, follow the tutorial from [this blog](https://blog.startingelectronics.com/auto-start-a-desktop-application-on-the-rapberry-pi/).
 
 + To setup static IP, follow this [forum post](https://www.raspberrypi.org/forums/viewtopic.php?t=191140).
 	if you don't wish to setup a static IP, you will need to find your Raspberry Pi's IP address with ifconfig
 + To add the LED indication and reset push button to the Raspberry Pi, the wiring diagram is shown as below.
 	
-![wiring diagram](https://github.ncsu.edu/malliso/ECE484-Router-Vulnerability/blob/master/HW_System_Wiring_Diagram.png)
+![wiring diagram](https://github.com/mallisonNCSU/RouterSecc/blob/master/HW_System_Wiring_Diagram.png)
 ## Running the program
 If the steps above are followed and completed, the program will be running automatically upon startup of the Raspberry Pi! To perform the tests and get the test results, you simply need to:
 
