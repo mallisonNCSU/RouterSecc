@@ -1,0 +1,180 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background:black;
+	font-size: 100%;
+	max-width: 1000px;
+	margin: auto;
+	width:80%;
+}
+
+
+h1{
+	font-family:Helvetica;
+	font-size:1.3em;
+	text-align:center;
+}
+
+.status {
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.statusbar::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.controls {
+	width:15%;
+}
+
+.controls ul{
+	list-style-type: none;
+	margin: 0;
+	background:;
+	padding: 0;
+}
+
+.controls li {
+	padding: 8px;
+}
+
+.controls input{
+	height:32px;
+	width:100px;
+}
+
+.progbar{
+	width:85%;
+	background:;
+	height:96px;
+}
+
+#container{
+	background:white;
+	height:750px;
+}
+
+#topbar{
+	background-color: #cccccc;
+	height:32px;
+}
+
+
+#currentStat{
+	margin-top: 15px;
+}
+
+#myProgress{
+	width:100%;
+	background:grey;
+	margin-top: 15px;
+	border: 2px solid grey;
+	border-radius:15px;
+}
+
+#myBar{
+	width: 0%;
+	height: 30px;
+	background: green;
+	border: 2px solid green;
+	border-radius:15px;
+}
+
+.ip{
+	background:blue;
+	float:left;
+	height:500px;
+	margin-left:1%;
+	margin-right:1%;
+	margin:0 1% 0 1%;
+	max-height:500px;
+	/* width:48%; */
+}
+
+#ip1{
+	background:#004466;
+	width:60%;
+}
+
+#ip1 table{
+	background:white;
+	height:470px;
+	margin:3%;
+	width:94%;
+	font-size: 14px;
+}
+#whyBother{
+	height:390px;
+}
+
+#score_total{
+	height: 80px;
+	font-size: 22px;
+	text-align: center;
+	padding-top:7%;
+}
+
+
+.labels {
+	text-align: ;
+}
+
+.ip p{
+	background:white;
+	margin: auto;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	padding: 2%;
+	height: 45%;
+	width:90%;
+}
+
+.ip li{
+	background: orange;
+	height: 30px;
+	margin: 0;
+	width: 100%;
+}
+
+th {
+	padding: 2px;
+}
+
+th:nth-child(1) {
+	background: ;
+	width: 140px;
+}
+th:nth-child(2) {
+	background: ;
+	width: 50px;
+}
+th:nth-child(3) {
+	background: ;
+	text-align: ;
+}
+td:nth-child(1) {
+	background: ;
+}
+td:nth-child(2) {
+	background: ;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+td:nth-child(3) {
+	background: ;
+	text-align: center;
+}
+
+#ip2{
+	background:#555555;
+	width:36%;
+}
+

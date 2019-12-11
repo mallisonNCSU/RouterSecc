@@ -1,0 +1,11 @@
+t1_score:0.20000000000000007:Default login credentials. -very insecure.
+t3_score:1.0:Firmware has been updated in the past year.
+t10_score:0.4:The admin portal is easier to find when it can be found at a default port.
+t9_score:0.3:UPnP is enabled. This means that devices on the network will be able to discover other devices on the network.
+t6_score:1.0:The SSID is using a name that does not have common features. This is good.
+t4_score:0.8942073590300361:Wifi password does not appear in common password lists.
+t2_score:1.0:WPA2 is enabled. WPA2 is a good type of encryption.
+t7_score:0.5:HTTPS is not enabled in your router settings. Enabling HTTPS will increase the security of packets being sent by the router.
+t5_score:0.3:Remote access is enabled on your router. This means that people outside your routers network can potentially access and change your routers settings.
+t8_score:1.0:Web access is not enabled on your router.
+t_score:0.6274207359030036
